@@ -1,0 +1,11 @@
+
+[class*='col'] {
+    min-height: 200px;
+    border: 1px solid black;
+    background-color: pink;
+    text-align: center;
+}
+
+[class*='col'] [class*='col'] {
+    background-color: salmon;
+}
